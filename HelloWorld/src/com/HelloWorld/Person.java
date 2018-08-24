@@ -8,19 +8,22 @@ package com.HelloWorld;
  *
  */
 public class Person {
+	
 	String name ;
+	int age;
+	
+	public Person(String name, int age ){
+		this.setName(name);
+		this.setAge(age);
+	
+		
+	}
+	
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
-	}
-	int age;
-	public Person(String name, int age ){
-		this.name=this.getName();
-		this.age=this.getAge();
-	
-		
 	}
 	public int getAge() {
 		return age;
