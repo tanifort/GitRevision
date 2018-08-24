@@ -8,3 +8,4 @@ var Person={
     
 }
 }
+console.log("Person",Person);
